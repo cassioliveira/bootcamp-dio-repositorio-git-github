@@ -20,3 +20,12 @@ Basicamente foi criado o projeto, clonado localmente, alterado e as novas modifi
 `git push -u origin main`
 
 PAra este último comando, só foi preciso executá-lo desta forma por ser a primeira vez. Nos próximos envios, basta digitar `git push`
+
+
+# [UPDATE]
+
+Alguns comandos úteis:
+
+- Criar nova branch baseada na branch atual: `git checkout -b nome_da_nova_branch`
+- Trocar de branch: `git checkout nome_da_branch_que_sera_trabalhada`
+- Fazer merge de branches. Na branch que vai receber as modificações da nova branch, execute: `git merge nome_da_branch_com_os_dados_novos` 
